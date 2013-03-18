@@ -167,8 +167,8 @@ end
 # Observers are singletons and this call instantiates and registers them.
 Player.observers << PlayerObserver.instance
 
-Player.new(:name => 'Marcos').save
+Player.new(:name => 'Winston').save
 p = Player.first
-p.name = 'Gaby'
+p.name = 'Gabby'
 p.save
 p.destroy
